@@ -8,6 +8,9 @@ class Todo{
     String status = isDone ? '[x]' : '[ ]';
     return '$status $id. $title';
    }
+   void complete() {
+    isDone = true;
+   }
 }
  
   // Todo (int id, String title) {
